@@ -3,7 +3,7 @@ import whislit from '@/app/assets/Wishlist.png'
 import cart from '@/app/assets/Cart1 with buy.png'
 import user from '@/app/assets/user.png'
 import Link from "next/link";
-import { IoSearch } from "react-icons/io5";
+
 
 const Navbar = () => {
   return (
@@ -21,7 +21,7 @@ const Navbar = () => {
         </div>
         <div className="bg-[#F5F5F5] w-[343px] h-[38px] rounded py-2 flex justify-center items-center">
           <input type="text" placeholder="What are you looking for?" className="bg-[#F5F5F5] relative right-12 text-[14px] font-normal text-gray-400 text-center"/>
-          <IoSearch />
+        
         </div>
         <div className="flex gap-4 mr-24">
         <Image src={whislit} alt="logo"/>
