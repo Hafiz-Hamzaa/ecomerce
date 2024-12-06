@@ -22,16 +22,23 @@ export default function About () {
             </div>
 
             <div className="flex justify-center gap-6 mt-28">
-                <Image src={men} alt="box"/>
-                <Image src={women} alt="box"/>
-                <Image src={young} alt="box"/>
+                <Image src={box} alt="box"/>
+                <Image src={box01} alt="box"/>
+                <Image src={box02} alt="box"/>
+                <Image src={box03} alt="box"/>
             </div>
 
             <div className="flex justify-center gap-14 mt-20">
+    <Image src={men} alt="icon"/>
+    <Image src={women} alt="icon"/>
+    <Image src={young} alt="icon"/>
+    </div>
+
+    <div className="flex justify-center gap-14 mt-20">
     <Image src={icon} alt="icon"/>
     <Image src={icon01} alt="icon"/>
     <Image src={icon01} alt="icon"/>
-    </div>
+  </div>
 
 
         </div>
